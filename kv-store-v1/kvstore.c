@@ -2,7 +2,13 @@
 #include<stdlib.h>
 #include<string.h>
 #include"kvstore.h"
-
+// 存储引擎
+kv_array_t  kv_a;
+kv_rbtree_t kv_rb;
+kv_btree_t  kv_b;
+kv_hash_t  kv_h;
+kv_dhash_t  kv_dh;
+kv_skiplist_t  kv_z;
 /*-------------------------------------------------------*/
 /*-----------------------kv存储协议-----------------------*/
 /*-------------------------------------------------------*/

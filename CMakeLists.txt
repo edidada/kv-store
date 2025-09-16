@@ -11,5 +11,5 @@ if(UNIX AND NOT WIN32)
     kv-store-v1/dhash.c
     kv-store-v1/skiplist.c
     )
-    add_executable(cpp_tb_kvstore tb_kvstore.c)
+    add_executable(cpp_tb_kvstore kv-store-v1/tb_kvstore.c)
 endif ()

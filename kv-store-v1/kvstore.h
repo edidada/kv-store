@@ -15,12 +15,12 @@
 #define max_tokens          32      // 用户指令最大的拆分数量
 
 // 存储引擎
-kv_array_t  kv_a;
-kv_rbtree_t kv_rb;
-kv_btree_t  kv_b;
-kv_hash_t  kv_h;
-kv_dhash_t  kv_dh;
-kv_skiplist_t  kv_z;
+extern kv_array_t  kv_a;
+extern kv_rbtree_t kv_rb;
+extern kv_btree_t  kv_b;
+extern kv_hash_t  kv_h;
+extern kv_dhash_t  kv_dh;
+extern kv_skiplist_t  kv_z;
 
 // 初始化kv存储引擎
 // 返回值：0成功，-1失败
